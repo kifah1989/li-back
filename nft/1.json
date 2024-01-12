@@ -1,0 +1,19 @@
+{
+  "name": "Fairouz: Voice of Lebanon",
+  "description": "A unique NFT representing the legendary Arab singer Fairouz, known for her enchanting voice and timeless contributions to Lebanese music.",
+  "image": "fairouz_image_url.jpg",
+  "attributes": [
+    {
+      "trait_type": "Nationality",
+      "value": "Lebanese"
+    },
+    {
+      "trait_type": "Genre",
+      "value": "Arabic Classical"
+    },
+    {
+      "trait_type": "Legacy",
+      "value": "Timeless"
+    }
+  ]
+}

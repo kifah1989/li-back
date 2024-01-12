@@ -1,0 +1,19 @@
+{
+  "name": "Amr Diab: King of Arabic Pop",
+  "description": "Own a piece of history with this NFT featuring Amr Diab, the iconic Egyptian singer and the 'King of Arabic Pop', celebrated for his groundbreaking contributions to the music industry.",
+  "image": "amr_diab_image_url.jpg",
+  "attributes": [
+    {
+      "trait_type": "Nationality",
+      "value": "Egyptian"
+    },
+    {
+      "trait_type": "Genre",
+      "value": "Arabic Pop"
+    },
+    {
+      "trait_type": "Innovation",
+      "value": "Groundbreaking"
+    }
+  ]
+}

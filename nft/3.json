@@ -1,0 +1,19 @@
+{
+  "name": "Umm Kulthum: Star of the East",
+  "description": "Capture the essence of Umm Kulthum, the legendary Egyptian singer and 'Star of the East', whose powerful vocals and poetic lyrics continue to resonate through generations.",
+  "image": "umm_kulthum_image_url.jpg",
+  "attributes": [
+    {
+      "trait_type": "Nationality",
+      "value": "Egyptian"
+    },
+    {
+      "trait_type": "Genre",
+      "value": "Arabic Classical"
+    },
+    {
+      "trait_type": "Influence",
+      "value": "Enduring"
+    }
+  ]
+}
