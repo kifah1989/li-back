@@ -1,19 +1,19 @@
 {
-  "name": "Umm Kulthum: Star of the East",
-  "description": "Capture the essence of Umm Kulthum, the legendary Egyptian singer and 'Star of the East', whose powerful vocals and poetic lyrics continue to resonate through generations.",
-  "image": "umm_kulthum_image_url.jpg",
+  "name": "Hifa Wehbi",
+  "description": "Capture the essence of Hifa, the Lebanese singer and 'Star of the East'",
+  "image": "https://viberatecdn.blob.core.windows.net/entity/artist/haifa-wehbe-8xk0u",
   "attributes": [
     {
       "trait_type": "Nationality",
-      "value": "Egyptian"
+      "value": "Lebanese"
     },
     {
       "trait_type": "Genre",
-      "value": "Arabic Classical"
+      "value": "Arabic"
     },
     {
       "trait_type": "Influence",
-      "value": "Enduring"
+      "value": "exotic"
     }
   ]
 }

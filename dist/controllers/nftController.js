@@ -18,7 +18,17 @@ const fs_1 = __importDefault(require("fs"));
 const prisma = new client_1.PrismaClient();
 const getAllNFTs = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const nfts = yield prisma.nft.findMany();
-    res.send(nfts);
+    // get all nft metadata from nft folder and add it to the response
+    let nftsWithMetadata = [];
+    for (let i = 0; i < nfts.length; i++) {
+        const metadata = fs_1.default.readFileSync(`nft/${i + 1}.json`, "utf-8");
+        const parsedMetadata = JSON.parse(metadata);
+        const nftWithMetadata = { nft: nfts[i], metadata: parsedMetadata };
+        nftsWithMetadata.push(nftWithMetadata);
+    }
+    if (nfts.length === 0)
+        return res.status(404).send("NFTs not found");
+    res.send(nftsWithMetadata);
 });
 exports.getAllNFTs = getAllNFTs;
 const getOneNFT = (req, res) => __awaiter(void 0, void 0, void 0, function* () {

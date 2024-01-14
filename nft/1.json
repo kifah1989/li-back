@@ -1,8 +1,7 @@
 {
-  "name": "Fairouz: Voice of Lebanon",
-  "description": "A unique NFT representing the legendary Arab singer Fairouz, known for her enchanting voice and timeless contributions to Lebanese music.",
-  "image": "https://i1.sndcdn.com/avatars-000164080233-y1ufhw-t500x500.jpg",
-  "owner": "0x0000000000000000000000000000000000000000",
+  "name": "Nancy Ajram",
+  "description": "A unique NFT representing the legendary Arab singer Nancy, known for her enchanting voice.",
+  "image": "https://en.akhbaralyawm.com/upload/OLZDQWYMLI.jpg",
   "attributes": [
     {
       "trait_type": "Nationality",
@@ -14,7 +13,7 @@
     },
     {
       "trait_type": "Legacy",
-      "value": "Timeless"
+      "value": "enchanting"
     }
   ]
 }

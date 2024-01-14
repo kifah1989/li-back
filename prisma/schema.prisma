@@ -14,12 +14,12 @@ model User {
   id     Int     @id
   wallet String  @unique
   name   String?
-  posts  Nft[]
+  nft    Nft[]
 }
 
 model Nft {
-  id          Int     @id
-  metaDataUrl String?
-  owner       User    @relation(fields: [ownerId], references: [id])
-  ownerId     Int
+  id      Int  @id
+  likes   Int  @default(0)
+  owner   User @relation(fields: [ownerId], references: [id])
+  ownerId Int
 }
